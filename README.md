@@ -2,7 +2,9 @@
 Este repositório contém um clone em progresso do site ArtBrut, desenvolvido como exercício de prática em HTML e CSS.
 
 Etapa concluída:
-- Apenas o cabeçalho está finalizado até o momento. 
+- Apenas o cabeçalho está finalizado até o momento.
+![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/93e06810-0d78-42dc-98ac-580120a87612)
+
 
 Próxima etapa:
 - A próxima etapa é a implementação da seção principal do site.
