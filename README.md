@@ -1,7 +1,6 @@
 # artbrut-website-clone
 Este repositório contém um clone em progresso do site ArtBrut, desenvolvido como exercício de prática em HTML e CSS.
-<hr>
-Resolução de tela: 1920x1080;
+<br>Resolução de tela: 1920x1080;
 
 Etapa concluída:
 - Apenas o cabeçalho está finalizado até o momento.
