@@ -12,7 +12,7 @@ Próxima etapa:
 <h2>Funcionalidades aplicadas:</h2>
 
 Funcionalidades em HTML:
-- Utilização de elementos semânticos como <header>, <nav>, <a>, e <img> para estruturar e fornecer significado ao conteúdo.
+- Utilização de elementos semânticos como header, nav, a, e <img> para estruturar e fornecer significado ao conteúdo.
 - Utilização de atributos como alt para fornecer texto alternativo para imagens.
 
 Funcionalidades em CSS:
