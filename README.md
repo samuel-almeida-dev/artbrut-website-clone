@@ -6,9 +6,11 @@ Etapa concluída:
 - Apenas o cabeçalho está finalizado até o momento.
 ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/93e06810-0d78-42dc-98ac-580120a87612)
 
+- Início da implementação da seção principal do site.
+  ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/6db52d5a-5ced-4bec-bc76-5d21cf2ef4b3)
 
 Próxima etapa:
-- A próxima etapa é a implementação da seção principal do site.
+- A etapa seguinte consistirá na conclusão da seção principal do site.
 
 <hr>
 
