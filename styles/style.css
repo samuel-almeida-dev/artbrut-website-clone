@@ -52,7 +52,7 @@ body {
     padding: 0.5px;
 }
 
-.main-section {
+.main-top-section {
     background-color: #F8F4F2;
     height: 235px;
     display: flex;
@@ -78,10 +78,131 @@ body {
     font-family: 'Signika', sans-serif;  
 }
 
-.path-links {
+.main-article-bottom {
+    height: 230px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Signika', sans-serif; 
+}
+
+.path-links-top {
     display: flex;
     align-items:center;
     justify-content: space-around;
     width: 260px;
+}
 
+/* Seletor: .path-links a */
+/* - Seleciona todos os elementos <a> que são descendentes (filhos, netos, etc.) da classe .path-links */
+.path-links-top a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Signika', sans-serif; 
+}
+
+.path-links-top a:hover{
+    color: rgb(214, 174, 125);
+}
+
+.path-links-bottom {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 260px;
+    padding-bottom: 20px;
+}
+
+/* Seletor: .path-links a */
+/* - Seleciona todos os elementos <a> que são descendentes (filhos, netos, etc.) da classe .path-links */
+.path-links-bottom a {
+    text-decoration: none;
+    color: rgba(143, 143, 143, 0.521);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Signika', sans-serif; 
+}
+
+.path-links-bottom a:hover{
+    color: rgb(214, 174, 125);
+}
+
+
+.main-mid-section {
+    height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dark {
+    font-size: 14px;
+    padding: 2px 9px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-dark:hover{
+    background-color: rgb(214, 174, 125);
+}
+
+.title-article {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    position: relative; /* Adiciona posicionamento relativo para facilitar o posicionamento do pseudo-elemento */
+}
+
+.title-article a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-article::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50px; /* Ajuste a posição conforme necessário */
+    width: 63%; /* Preciso achar uma forma de se ajusta independente do tamanho do texto, por enquanto vai ficar assim */
+    height: 2px; /* Ajuste a altura do sublinhado conforme necessário */
+    background-image: linear-gradient(to right, black 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 200% 100%;
+    transition: background-position 1s ease; /* Adiciona uma transição suave */
+}
+
+.title-article:hover::after {
+    background-position: 0;
+}
+
+.btn-outline-info {
+    font-size: 14px;
+    padding: 12px 35px;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(214, 174, 125);
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-outline-info:hover{
+    background-color: rgb(182, 145, 100);
 }
