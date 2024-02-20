@@ -101,11 +101,15 @@ body {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-family: 'Signika', sans-serif; 
+    transition-duration: 0.5s;
 }
 
 .path-links-top a:hover{
     color: rgb(214, 174, 125);
 }
+
+/* Seletor: .path-links a */
+/* - Seleciona todos os elementos <a> que são descendentes (filhos, netos, etc.) da classe .path-links */
 
 .path-links-bottom {
     display: flex;
@@ -115,13 +119,12 @@ body {
     padding-bottom: 20px;
 }
 
-/* Seletor: .path-links a */
-/* - Seleciona todos os elementos <a> que são descendentes (filhos, netos, etc.) da classe .path-links */
 .path-links-bottom a {
     text-decoration: none;
     color: rgba(143, 143, 143, 0.521);
     font-family: 'Oswald', sans-serif;
     font-family: 'Signika', sans-serif; 
+    transition-duration: 0.8s;
 }
 
 .path-links-bottom a:hover{
@@ -153,6 +156,7 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 .btn-dark:hover{
     background-color: rgb(214, 174, 125);
 }
