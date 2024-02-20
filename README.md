@@ -1,5 +1,5 @@
 # artbrut-website-clone
-Este repositório contém um clone em progresso do site ArtBrut, desenvolvido como exercício de prática em HTML e CSS.
+Este repositório contém um clone em progresso do site [ArtBrut](https://www.artbrut.com.br/category/arquitetura/) na aba de arquitetura, desenvolvido como exercício de prática em HTML e CSS.
 <br>Resolução de tela: 1920x1080;
 
 Etapa concluída:
@@ -9,16 +9,28 @@ Etapa concluída:
 - Início da implementação da seção principal do site.
   ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/6db52d5a-5ced-4bec-bc76-5d21cf2ef4b3)
 
+- Implementação da seção main finalizada.
+  ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/2f367cc8-6fa1-4466-a779-fd236c5097b3)
+
+
 Próxima etapa:
-- A etapa seguinte consistirá na conclusão da seção principal do site.
+- A etapa seguinte consistirá na implementação da seção footer do site.
+- Identifiquei um problema na sublinhagem aplicada à classe "title-article": ao passar o mouse sobre o texto, o sublinhado não acompanha o tamanho do texto. Isso pode causar inconsistências visuais em diferentes páginas que utilizam essa classe. A correção será feita em uma etapa posterior.
 
 <hr>
 
 <h2>Funcionalidades aplicadas:</h2>
 
 Funcionalidades em HTML:
-- Utilização de elementos semânticos como header, nav, a, e <img> para estruturar e fornecer significado ao conteúdo.
-- Utilização de atributos como alt para fornecer texto alternativo para imagens.
+- Utilização de marcação semântica com elementos <header>, <main>, e <nav> para melhorar a acessibilidade e estrutura do documento.
+- Inclusão de metadados como charset e viewport para garantir a correta renderização e compatibilidade com dispositivos móveis.
+- Importação de folhas de estilo externas usando a tag <link> para separar a estrutura do conteúdo da apresentação visual.
+- Incorporação de fontes do Google Fonts usando links externos para adicionar estilos tipográficos ao documento.
+- Atribuição de classes a elementos HTML para aplicação de estilos CSS específicos.
+- Aninhamento de elementos HTML para criar estruturas de conteúdo hierárquicas.
+- Uso de elementos <img> para inclusão de imagens, com atributos alt para acessibilidade e style para estilização inline.
+- Organização do conteúdo em seções distintas, como <header>, <main>, e <div>, para facilitar a manipulação e estilização do layout.
+- Utilização de elementos de lista (<a>) para criação de links de navegação e inclusão de ícones.
 
 Funcionalidades em CSS:
 - Estilização de elementos HTML usando classes e seletores, aplicando propriedades como background-color, height, width, display, justify-content, align-items, font-family, font-size, margin, padding, color, e transition-duration.
@@ -26,3 +38,8 @@ Funcionalidades em CSS:
 - Estilização de links (<a>) para criar efeitos de transição de cor ao passar o mouse sobre eles (:hover).
 - Importação e uso de fontes do Google Fonts através de links externos.
 - Utilização de imagens como logos e ícones, com estilos aplicados diretamente (style) e através de classes.
+- Uso de transições (transition) para criar efeitos suaves de mudança de cor ao passar o mouse sobre os elementos.
+- Aplicação de bordas arredondadas (border-radius) para elementos, como botões.
+- Definição de cursores personalizados (cursor: pointer;) para indicar interatividade em elementos clicáveis.
+- Estilização de pseudo-elementos (::after) para adicionar efeitos decorativos, como sublinhado em links (<a>).
+- Utilização de gradiente linear (linear-gradient) para criar efeitos de cor de fundo em elementos.
