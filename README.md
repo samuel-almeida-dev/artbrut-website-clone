@@ -15,7 +15,7 @@ Este repositório contém um clone em progresso do site [ArtBrut](https://www.ar
 - Implementação do footer finalizada.
 ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/8f2268a2-15d0-451f-8905-988e5d74ed86)
 
-Para visualizar a página em ação, acesse este [link]().
+Para visualizar a página em ação, acesse este [link](https://samuel-almeida-dev.github.io/artbrut-website-clone/).
 
 <hr>
 
