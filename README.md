@@ -2,7 +2,7 @@
 Este repositório contém um clone em progresso do site [ArtBrut](https://www.artbrut.com.br/category/arquitetura/) na aba de arquitetura, desenvolvido como exercício de prática em HTML e CSS.
 <br>Resolução de tela: 1920x1080;
 
-Etapa concluída:
+## Visualize o progresso e acesse a página
 - Apenas o cabeçalho está finalizado até o momento.
 ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/93e06810-0d78-42dc-98ac-580120a87612)
 
@@ -12,10 +12,10 @@ Etapa concluída:
 - Implementação da seção main finalizada.
   ![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/2f367cc8-6fa1-4466-a779-fd236c5097b3)
 
+- Implementação do footer finalizada.
+![image](https://github.com/samuel-almeida-dev/artbrut-website-clone/assets/130515347/8f2268a2-15d0-451f-8905-988e5d74ed86)
 
-Próxima etapa:
-- A etapa seguinte consistirá na implementação da seção footer do site.
-- Identifiquei um problema na sublinhagem aplicada à classe "title-article": ao passar o mouse sobre o texto, o sublinhado não acompanha o tamanho do texto. Isso pode causar inconsistências visuais em diferentes páginas que utilizam essa classe. A correção será feita em uma etapa posterior.
+Para visualizar a página em ação, acesse este [link]().
 
 <hr>
 
